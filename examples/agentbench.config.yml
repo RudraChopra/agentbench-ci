@@ -1,0 +1,8 @@
+checks:
+  test: npm test
+  lint: npm run lint
+limits:
+  timeoutSeconds: 900
+  maxChangedFiles: 40
+report:
+  outputDir: .agentbench/runs
